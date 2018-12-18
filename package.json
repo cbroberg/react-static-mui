@@ -1,0 +1,27 @@
+{
+  "name": "react-static-example-material-ui",
+  "version": "6.0.0-beta.28",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.7.0",
+    "@material-ui/icons": "^3.0.1",
+    "@material-ui/styles": "^3.0.0-alpha.4",
+    "axios": "^0.18.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.6.2",
+    "react-jss": "^8.6.1",
+    "react-static": "^6.0.6"
+  },
+  "devDependencies": {
+    "eslint-config-react-tools": "1.x.x",
+    "serve": "^10.1.1"
+  },
+  "gitHead": "350700130b7501622eac16aa139107c684b62b01"
+}
