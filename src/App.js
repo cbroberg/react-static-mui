@@ -2,12 +2,10 @@ import React, { PureComponent } from 'react'
 import { Root, Routes } from 'react-static'
 import { Link } from '@reach/router'
 
-//
-
-import CssBaseline from '@material-ui/CssBaseline'
-import AppBar from '@material-ui/AppBar'
-import Tabs, { Tab } from '@material-ui/Tabs'
-import { withStyles } from '@material-ui/styles'
+import CssBaseline from '@material-ui/core/CssBaseline'
+import AppBar from '@material-ui/core/AppBar'
+import Tabs, { Tab } from '@material-ui/core/Tabs'
+import { withStyles } from '@material-ui/core/styles'
 
 // Custom styles
 const styles = {

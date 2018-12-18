@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/styles'
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 
 // Your top level component
 import App from './App'
