@@ -1,5 +1,4 @@
 import axios from "axios";
-import React, { Component } from "react";
 
 export default {
   getSiteData: () => ({
@@ -7,7 +6,7 @@ export default {
   }),
   getRoutes: async () => {
     const { data: posts } = await axios.get(
-      "https://jsonplaceholder.typicode.com/posts"
+      "https://betabackend.senti.cloud/rest/cms/pages/da/138230100010010"
     );
     return [
       {
@@ -16,7 +15,7 @@ export default {
           posts
         }),
         children: posts.map(post => ({
-          path: `/post/${post.id}`,
+          path: `/post/${post.urlShort}/`,
           component: "src/containers/Post",
           getData: () => ({
             post

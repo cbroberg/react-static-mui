@@ -1,7 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { withRouteData } from 'react-static'
 import { Link } from '@reach/router'
-//
 import Typography from '@material-ui/core/Typography'
 
 export default withRouteData(({ posts }) => (
@@ -14,7 +14,7 @@ export default withRouteData(({ posts }) => (
       <ul>
         {posts.map(post => (
           <li key={post.id}>
-            <Link to={`/blog/post/${post.id}/`}>{post.title}</Link>
+            <Link to={`/blog/post/${post.urlShort}`}>{post.title}</Link>
           </li>
         ))}
       </ul>

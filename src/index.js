@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { AppContainer } from "react-hot-loader";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import "./styles.css";
 
 // Your top level component
 import App from "./App";
