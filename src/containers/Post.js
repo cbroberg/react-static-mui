@@ -9,6 +9,7 @@ const htmlToReactParser = new Parser()
 
 export default withRouteData(({ post }) => (
   <div>
+	{console.log(post)}
     <Typography type="body1" component={Link} to="/blog" gutterBottom>
       {'<'} Back
     </Typography>

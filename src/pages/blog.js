@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography'
 
 export default withRouteData(({ posts }) => (
   <div>
+	{console.log(posts)}
     <Typography type="headline" gutterBottom>
       It's blog time.
     </Typography>
@@ -14,7 +15,7 @@ export default withRouteData(({ posts }) => (
       <ul>
         {posts.map(post => (
           <li key={post.id}>
-            <Link to={`/blog/post/${post.urlShort}`}>{post.title}</Link>
+            <Link to={`/blog/post/${post.urlShort}/`}>{post.title}</Link>
           </li>
         ))}
       </ul>
